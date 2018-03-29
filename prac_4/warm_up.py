@@ -20,3 +20,15 @@ print(5 in numbers)
 print(7 in numbers)
 print("3" in numbers)
 print(numbers + [6, 5, 3])
+
+numbers[0] = '10'
+print(numbers[0])
+numbers[-1] = '1'
+print(numbers[-1])
+print(numbers[2:])
+check_number = '9'
+if 9 in numbers:
+    print("It's in the list")
+
+else:
+    print('Not in the list')
